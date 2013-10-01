@@ -3,9 +3,9 @@
 echo "A big hello from PHP!";
 echo "<br>";
 
- for($i = 0; $i < 10; $i++)
+ for($i = 1; $i <= 10; $i++)
  {
-	echo $i;
+	echo "This is line #".$i;
 	echo "<br>";
  }
 
