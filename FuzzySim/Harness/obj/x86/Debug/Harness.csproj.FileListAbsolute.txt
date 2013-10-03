@@ -1,0 +1,7 @@
+C:\Dev\AI\FuzzyLogic\FuzzySim_v1.4\Harness\bin\Debug\Harness.exe
+C:\Dev\AI\FuzzyLogic\FuzzySim_v1.4\Harness\bin\Debug\Harness.pdb
+C:\Dev\AI\FuzzyLogic\FuzzySim_v1.4\Harness\bin\Debug\XBoxController.dll
+C:\Dev\AI\FuzzyLogic\FuzzySim_v1.4\Harness\bin\Debug\XBoxController.pdb
+C:\Dev\AI\FuzzyLogic\FuzzySim_v1.4\Harness\obj\x86\Debug\Harness.csprojResolveAssemblyReference.cache
+C:\Dev\AI\FuzzyLogic\FuzzySim_v1.4\Harness\obj\x86\Debug\Harness.exe
+C:\Dev\AI\FuzzyLogic\FuzzySim_v1.4\Harness\obj\x86\Debug\Harness.pdb

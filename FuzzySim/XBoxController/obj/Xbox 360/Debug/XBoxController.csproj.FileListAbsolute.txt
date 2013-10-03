@@ -1,0 +1,5 @@
+C:\Dev\AI\FuzzyLogic\FuzzySim_v1.4\XBoxController\obj\Xbox 360\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Dev\AI\FuzzyLogic\FuzzySim_v1.4\XBoxController\bin\Xbox 360\Debug\XBoxController.dll
+C:\Dev\AI\FuzzyLogic\FuzzySim_v1.4\XBoxController\bin\Xbox 360\Debug\XBoxController.pdb
+C:\Dev\AI\FuzzyLogic\FuzzySim_v1.4\XBoxController\obj\Xbox 360\Debug\XBoxController.dll
+C:\Dev\AI\FuzzyLogic\FuzzySim_v1.4\XBoxController\obj\Xbox 360\Debug\XBoxController.pdb
