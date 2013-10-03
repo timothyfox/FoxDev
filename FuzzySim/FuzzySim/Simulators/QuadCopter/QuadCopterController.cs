@@ -115,17 +115,13 @@ namespace FuzzySim.Simulators
             //Switch for how to adjust throttle settings ('AutoPilot' Checkbox on form)
             if (!Manual)
             {
-                quad.Throttle = _throttle;
-                quad.ThrustVector = _tv;
             }
             else
             {
-               quad.Throttle = Operations.DeFuzzifyCOG(ThrottleAccum["ThrottleOutput"]);
-               quad.ThrustVector = Operations.DeFuzzifyCOG(ThrustVecAccum["ThrustVector"]);
             }
 
             //THESE ARE UP TO YOU TO TUNE!!
-            quad.Throttle += 20;
+            //quad.Throttle += 20;
 
             //END
             ((QuadCopterSim)Globals.Simulator).QuadCopter = quad;

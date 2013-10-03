@@ -77,3 +77,7 @@ C:\Dev\AI\FuzzyLogic\FuzzySim_v1.4\SharpLua\CFLS\bin\Debug\CFLS.dll
 C:\Dev\AI\FuzzyLogic\FuzzySim_v1.4\SharpLua\CFLS\bin\Debug\CFLS.pdb
 C:\Dev\AI\FuzzyLogic\FuzzySim_v1.4\SharpLua\CFLS\obj\Debug\CFLS.dll
 C:\Dev\AI\FuzzyLogic\FuzzySim_v1.4\SharpLua\CFLS\obj\Debug\CFLS.pdb
+C:\xampp\htdocs\foxdev\FuzzySim\SharpLua\CFLS\bin\Debug\CFLS.dll
+C:\xampp\htdocs\foxdev\FuzzySim\SharpLua\CFLS\bin\Debug\CFLS.pdb
+C:\xampp\htdocs\foxdev\FuzzySim\SharpLua\CFLS\obj\Debug\CFLS.dll
+C:\xampp\htdocs\foxdev\FuzzySim\SharpLua\CFLS\obj\Debug\CFLS.pdb
