@@ -240,3 +240,15 @@ C:\xampp\htdocs\foxdev\FuzzySim\FuzzySim\bin\Debug\FuzzySim.pdb
 C:\xampp\htdocs\foxdev\FuzzySim\FuzzySim\bin\Debug\CFLS.dll
 C:\xampp\htdocs\foxdev\FuzzySim\FuzzySim\bin\Debug\CFLS.pdb
 C:\xampp\htdocs\foxdev\FuzzySim\FuzzySim\obj\x86\Debug\FuzzySim.pdb
+C:\Dev\AI\FuzzyLogic\FuzzySim\FuzzySim\obj\x86\Debug\FuzzySim.exe
+C:\Dev\AI\FuzzyLogic\FuzzySim\FuzzySim\obj\x86\Debug\FuzzySim.pdb
+C:\Dev\AI\FuzzyLogic\FuzzySim\FuzzySim\bin\Debug\FuzzySim.exe
+C:\Dev\AI\FuzzyLogic\FuzzySim\FuzzySim\bin\Debug\FuzzySim.pdb
+C:\Dev\AI\FuzzyLogic\FuzzySim\FuzzySim\bin\Debug\CFLS.dll
+C:\Dev\AI\FuzzyLogic\FuzzySim\FuzzySim\bin\Debug\CFLS.pdb
+C:\Dev\AI\FuzzyLogic\FuzzySim\FuzzySim\obj\x86\Debug\FuzzySim.csprojResolveAssemblyReference.cache
+C:\Dev\AI\FuzzyLogic\FuzzySim\FuzzySim\obj\x86\Debug\FuzzySim.FuzzyRenderer.resources
+C:\Dev\AI\FuzzyLogic\FuzzySim\FuzzySim\obj\x86\Debug\FuzzySim.Forms.MainForm.resources
+C:\Dev\AI\FuzzyLogic\FuzzySim\FuzzySim\obj\x86\Debug\FuzzySim.Forms.TraceForm.resources
+C:\Dev\AI\FuzzyLogic\FuzzySim\FuzzySim\obj\x86\Debug\FuzzySim.Properties.Resources.resources
+C:\Dev\AI\FuzzyLogic\FuzzySim\FuzzySim\obj\x86\Debug\FuzzySim.csproj.GenerateResource.Cache

@@ -93,9 +93,13 @@ namespace FuzzySim.Simulators
             double speedX = harrier.XVel;
             double safeX = harrier.X - harrier.MidSafeX - 20;
 
+
+
             //Save Accumulator  
             FuzzySet throttleOutput     = ThrottleAccum["ThrottleOutput"];
             FuzzySet thrustVectorOutput = ThrustVecAccum["ThrustVector"];
+
+            double thrustVec = Operations.DeFuzzifyCOG(thrustVectorOutput);
 
             throttleOutput.Clear();
             thrustVectorOutput.Clear();
@@ -146,8 +150,11 @@ namespace FuzzySim.Simulators
             RuleSetThrustVec["Rule3"] = Rule.IS(safeX, XDist["x_right"], ref thrustVectorOutput, ThrustVec["p_backHard"],
                                                 RuleSetThrustVec["Rule3"]);
 
-            RuleSetThrustVec["Rule4"] = Rule.IS(safeX, XDist["x_veryLeft"], ref thrustVectorOutput, ThrustVec["p_fwd"],
+            RuleSetThrustVec["Rule4"] = Rule.IS(safeX, XDist["x_veryLeft"], ref thrustVectorOutput, ThrustVec["p_fwdMax"],
                                                 RuleSetThrustVec["Rule4"]);
+            
+            RuleSetThrustVec["Rule5"] = Rule.AND(speedX, XVel["x_b_slow"], thrustVec, ThrustVec["p_fwd"] , ref thrustVectorOutput, ThrustVec["p_fwdMax"],
+                                                RuleSetThrustVec["Rule5"]);
 
 
             ThrottleAccum["ThrottleOutput"] = throttleOutput;
@@ -166,7 +173,7 @@ namespace FuzzySim.Simulators
             }
             
             harrier.Throttle += 25;
-            harrier.ThrustVector += 90;
+            harrier.ThrustVector += 88;
 
             ((HarrierSim) Globals.Simulator).Harrier = harrier;
         }
@@ -361,9 +368,19 @@ namespace FuzzySim.Simulators
             temp = new FuzzySet("p_fwdHard", -5, 5);
             temp.LineColour = new SolidBrush(Color.Green);
             temp.AddPoint(-5, 1);
+            temp.AddPoint(-2, 0);
+            temp.AddPoint(5, 0);
+            ThrustVec.Add(temp);
+
+            //THRUST VEC
+            temp = new FuzzySet("p_fwdMax", -5, 5);
+            temp.LineColour = new SolidBrush(Color.BlueViolet);
+            temp.AddPoint(-5, 1);
+            temp.AddPoint(-4, 1);
             temp.AddPoint(-3, 0);
             temp.AddPoint(5, 0);
             ThrustVec.Add(temp);
+
 
             temp = new FuzzySet("p_fwd", -5, 5);
             temp.LineColour = new SolidBrush(Color.Red);
@@ -464,6 +481,17 @@ namespace FuzzySim.Simulators
             temp.AddPoint(2, 0);
             temp.AddPoint(50, 0);
             XVel.Add(temp);
+
+            temp = new FuzzySet("x_b_slow", -50, 50);
+            temp.LineColour = new SolidBrush(Color.Brown);
+            temp.AddPoint(-50, 0);
+            temp.AddPoint(-14, 0);
+            temp.AddPoint(-10, 1);
+            temp.AddPoint(-6, 1);
+            temp.AddPoint(-3, 0);
+            temp.AddPoint(50, 0);
+            XVel.Add(temp);
+
 
             temp = new FuzzySet("x_b_med", -50, 50);
             temp.LineColour = new SolidBrush(Color.CadetBlue);
