@@ -397,7 +397,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "MainForm";
-            this.Text = "FuzzySim [FuzzyLua C++ to C# Rewrite, v1.4]";
+            this.Text = "FuzzySim [v1.4] - Release01";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);

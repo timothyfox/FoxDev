@@ -166,6 +166,7 @@ namespace FuzzySim.Simulators
             Brush shadow = new SolidBrush(Color.White);
 
             ret.AddTextWithShadow("Value", "0", new Vec2(x, 140), colour, shadow);
+            ret.AddTextWithShadow("Value", "0", new Vec2(x, 140), colour, shadow);
         }
 
         public override SimFrame DrawTurn(SimFrame frame)
